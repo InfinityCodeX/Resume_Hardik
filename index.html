@@ -1,0 +1,501 @@
+<html>
+<head>
+<title>Hardik Vegad Resume Page</title>
+<link rel="stylesheet" href="style.css">
+<!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<style>
+
+
+[type=radio] {
+  display: none;
+}
+
+#slider {
+  height: 420px;
+  position: relative;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+}
+
+#slider label {
+  margin-top:-30px;
+  margin-left: 65px;
+  height: 75%;
+  width: 73%;
+  border-radius: 4px;
+  position: absolute;
+  left: 0; right: 0;
+  cursor: pointer;
+  transition: transform 0.4s ease;
+}
+
+#s1:checked ~ #slide4, #s2:checked ~ #slide5,
+#s3:checked ~ #slide1, #s4:checked ~ #slide2,
+#s5:checked ~ #slide3 {
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.37);
+  transform: translate3d(-30%,0,-200px);
+}
+
+#s1:checked ~ #slide5, #s2:checked ~ #slide1,
+#s3:checked ~ #slide2, #s4:checked ~ #slide3,
+#s5:checked ~ #slide4 {
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,.3), 0 2px 2px 0 rgba(0,0,0,.2);
+  transform: translate3d(-15%,0,-100px);
+}
+
+#s1:checked ~ #slide1, #s2:checked ~ #slide2,
+#s3:checked ~ #slide3, #s4:checked ~ #slide4,
+#s5:checked ~ #slide5 {
+  box-shadow: 0 13px 25px 0 rgba(0,0,0,.3), 0 11px 7px 0 rgba(0,0,0,.19);
+  transform: translate3d(0,0,0);
+}
+
+#s1:checked ~ #slide2, #s2:checked ~ #slide3,
+#s3:checked ~ #slide4, #s4:checked ~ #slide5,
+#s5:checked ~ #slide1 {
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,.3), 0 2px 2px 0 rgba(0,0,0,.2);
+  transform: translate3d(15%,0,-100px);
+}
+
+#s1:checked ~ #slide3, #s2:checked ~ #slide4,
+#s3:checked ~ #slide5, #s4:checked ~ #slide1,
+#s5:checked ~ #slide2 {
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.37);
+  transform: translate3d(30%,0,-200px);
+}
+
+
+</style>
+
+
+
+<body>
+
+
+<!----------------------------Smooth Scroll-------------------------------------------->
+
+<script src="smooth-scroll.js"></script>
+
+<script>var scroll=new SmoothScroll('a[href*="#"]');</script>
+
+
+
+<!--------Header Section--------------->
+<section id="header">
+<div class="container text-center">
+<div class="user-box">
+<a href="https://www.infinitycodex.in/" target="_blank">
+<img src="hardikvegad.png">
+</a>
+<h1><span class="container text-center" style="font-family: &quot;times new roman&quot; , serif;">Hardik Vegad</span></h1>
+<p class="container text-center">AI & DATA SCIENCE ENTHUSIAST</p> 
+</div>
+</div>
+
+<div id="particles-js"></div>
+<script src="particles.js"></script>
+<script src="app.js"></script>
+
+<div class="scroll-btn">
+<div class="scroll-bar"><a href="#about"><span> </span></a></div>
+</div>
+</section>
+
+<!-----------------------User-Info Section------------------------------->
+
+<section id="user-info">
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"><u><b>HARDIK VEGAD</b></u></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+     <i class="fa fa-bars"></i>
+  
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+	<li class="nav-item">
+            <a class="nav-link" href="#top">HOME</a>
+	</li>
+	<li class="nav-item">
+            <a class="nav-link" href="#about">ABOUT ME</a>
+	</li>
+	<li class="nav-item">
+            <a class="nav-link" href="#resume">RESUME</a>
+	</li>
+	<li class="nav-item">
+            <a class="nav-link" href="#services">PROJECTS</a>
+	</li>
+	<li class="nav-item">
+            <a class="nav-link" href="#contact">CONTACT</a>
+	</li>
+      </ul>
+   </div>
+</nav>	
+
+
+	<!-------------About------------------->
+
+<div class="about container" id="about">
+<div class="row">
+<div class="col-md-6 text-center">
+<img src="hardik1.png" class="profile-img">
+</div><br/>
+<div class="col-md-6">
+<span style="font-family: &quot;times new roman&quot; , serif; font-size: 34px;">
+<b>WHO AM I ?</b>
+</span>
+<br/>
+<p style="font-family: &quot;times new roman&quot; , serif; font-size: 17px;">
+<br/>
+<i>Hello, I am <b>Hardik Ashok Vegad</b>. I was born on June 16, 1999, at <b>Mumbai</b>. I am very optimistic and a bright human being. I am very creative as well as a very logical person. I like to socialize with people. I am a quick learner. My hobbies are to hear Audio-Books, go on Trekking, play Football and write Blogs. My only goal is to make this world a better place with the knowledge of Artificial Intelligence & Data Science.
+</i>
+</p>
+
+
+<h1 style="text-align: center;font-size: 28px;font-family: Times;"><b><u>My Skills</u></b></h1>
+
+<br><br>
+
+<section id="slider">
+  <input type="radio" name="slider" id="s1">
+  <input type="radio" name="slider" id="s2">
+  <input type="radio" name="slider" id="s3" checked>
+  <input type="radio" name="slider" id="s4">
+  <input type="radio" name="slider" id="s5">
+  <label for="s1" id="slide1">
+  	<img src="e.png" height="100%" width="100%">
+  </label>
+  <label for="s2" id="slide2">
+  	  	<img src="c.png" height="100%" width="100%">
+  </label>
+  <label for="s3" id="slide3">
+  	  	<img src="a.png" height="100%" width="100%" checked>
+  </label>
+  <label for="s4" id="slide4">
+  	  	<img src="b.png" height="100%" width="100%">
+  </label>
+  <label for="s5" id="slide5">
+  	<img src="d.png" height="100%" width="100%">
+  </label>
+</section>
+<br/>
+<br/>
+
+
+</div>
+</div>
+</div>
+</div>
+<!---------------------------Social Icons------------------------------------------>
+
+<div class="social-icons">
+<ul>
+<a href="https://www.linkedin.com/in/vegadhardik7" target="_blank"><li><i class="fa fa-linkedin"></i></li></a>
+<a href="https://twitter.com/InfinityCodeX1" target="_blank"><li><i class="fa fa-twitter"></i></li></a>
+<a href="https://github.com/Vegadhardik7/" target="_blank"><li><i class="fa fa-github"></i></li></a>
+<a href="https://www.facebook.com/InfinitycodeX/" target="_blank"><li><i class="fa fa-facebook"></i></li></a>
+<a href="https://www.instagram.com/infinitycode_x/" target="_blank"><li><i class="fa fa-instagram"></i></li></a>
+</ul>
+</div>
+
+
+
+
+<!----------------------------Resume--------------------------------------------->
+
+<div class="resume" id="resume">
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+<h3 class="text-center" span style="font-family: &quot;times new roman&quot; , serif;"><b><u>MY ACHIVEMENTS</u></b></h3>
+<ul class="timeline">
+
+
+
+<li>
+<h4><span>2020 - </span>Certified from UNIVERSITY OF MICHIGAN</h4>
+<p>
+Earned a Data Science certificate from <i>University Of Michigan</i> with proper understanding of implementation of Data Science in real world.<br/><br/> 
+<b>Company</b> - Coursera<br>
+<b>Location</b> - Mumbai India<br>
+</p>
+</li>
+
+
+
+
+<li>
+<h4><span>2020 - </span>Certified from IBM</h4>
+<p>
+Earned a certificate from <i>IBM</i> for completing <b>Python101 For Data Science</b> Course.<br/><br/>
+<b>Company</b> - IBM<br>
+<b>Location</b> - Mumbai India<br>
+</p>
+</li>
+
+
+
+
+<li>
+<h4><span>2020 - </span>Certified from SKILLZCAFE</h4>
+<p>
+Earned a Data Science certificate from <i>Skillzcafe</i> with respect to theoretical approch.<br/><br/> 
+<b>Company</b> - Skillzcafe<br>
+<b>Location</b> - Mumbai India<br>
+</p>
+</li>
+
+
+
+<li>
+<h4><span>2020 - </span>Certified in Multiple UDEMY Cources</h4>
+<p>
+Earned multiple certificate from <i>Udemy</i>, of cources such as <b>"Automate The Boring Stuff With Python"</b>, <b>"Decision Tree, Random Forest, AdaBoost & XGBoost In Python"</b>, <b>"Time Series Analysis"</b>, etc.
+<br/><br/>
+<b>Company</b> - Udemy<br>
+<b>Location</b> - Mumbai India<br>
+</p>
+</li>
+
+
+</ul>
+</div>
+
+
+<div class="col-md-6">
+<h3 class="text-center" span style="font-family: &quot;times new roman&quot; , serif;"><b><u>MY EDUCATION</u></b></h3>
+<ul class="timeline">
+<li>
+<h4><span>2020 - </span>Bachelor In Computer Science</h4>
+<p>
+I have earned my Bachelor In Computer Science degree from <i>Sk Somaiya College Of Arts, Science & Commerce.</i><br/><br/>
+<b>Institute</b> - Sk Somaiya College Of Arts, Science & Commerce<br>
+<b>Session</b> - 3 year [2017-2020]<br>
+<b>Aggregate</b> - 6.5 CGPA<br>
+</p>
+</li>
+<li>
+<h4><span>2017 - </span>Intermediate (HSC)</h4>
+<p>
+I have earned my Higher Secondary Certificate from <i>Sk Somaiya Vinay Mandir Junior College.</i><br/><br/>
+<b>Institute</b> - Sk Somaiya Vinay Mandir Junior College<br>
+<b>Session</b> - 2 year [2015-2017]<br>
+<b>Aggregate</b> - 50%<br>
+</p>
+</li>
+<li>
+<h4><span>2015 - </span>High School (SSC)</h4>
+<p>
+I had completed my Schooling from <i>St Lawrence High School And Junior College.</i><br/><br/>
+<b>Institute</b> - St Lawrence High School And Junior College<br>
+<b>Session</b> - 12 year [2003-2015]<br>
+<b>Aggregate</b> - 73%<br>
+</p>
+</li>
+</ul>
+</div>
+</div>	
+</div>
+</div>
+
+
+<!-----------------------------------------SERVICES-------------------------------------------------->
+<div class="services" id="services">
+<div class="container">
+<h1 class="text-center" span style="font-family: &quot;times new roman&quot; , serif;"><u>My Recent Projects</u></h1>
+<br/>
+
+<p class="text-center" style="text-align: center;font-size: 28px;font-family: Times;">
+&nbsp;&nbsp;&nbsp;These are some of my real life projects. Projects might take few seconds to load so be patient.
+</p>
+
+
+
+<div class="row">
+<div class="col-md-4">
+<br/>
+<div class="services-box">
+<i class="fa fa-ravelry" aria-hidden="true"></i>
+<span>Classify Malaria Cell</span>
+<p>
+This project is use to classify infected Malaria Cell from non-infected Malaria Cell. This project is
+developed using Python, Jupyter-Notebook, TensorFlow, Scikit learn & Convolutional Neural Network.
+<br/>
+<p class="text-center"> 
+<a href="https://www.infinitycodex.in/detect-malaria-using-cnn-python" target="_blank"><i>Malaria Classification Project</i></a>
+</p>
+</p>
+</div>
+</div>
+
+
+
+
+
+
+<div class="col-md-4">
+<br/>
+<div class="services-box">
+<i class="fa fa-heartbeat" aria-hidden="true"></i>
+<span style="margin-left:20px;">Heart Disease Prediction</span>
+<p>
+This project is an complete END TO END machine learning project which was developed to predict heart disease. This project is
+developed using Jupyter-Notebook, Flask, Pycharm, Html, CSS & Heroku.
+<br/>
+<p class="text-center"> 
+<a href="https://infinitycodex-heart-project.herokuapp.com/" target="_blank"><i>Heart Disease Prediction Project</i></a>
+</p>
+</p>
+</div>
+</div>
+
+
+
+
+
+
+
+<div class="col-md-4">
+<br/>
+<div class="services-box">
+<i class="fa fa-home" aria-hidden="true"></i>
+<span>House Price Prediction</span>
+<p>
+This project is created to prediction the house price at USA which takes various features as inputs. This project is
+developed using Python, Jupyter-Notebook, TensorFlow, Scikit learn & Artificial Neural Network.
+<br/>
+<p class="text-center"> 
+<a href="https://nbviewer.jupyter.org/github/Vegadhardik7/ANNS/blob/master/HOUSE_PRICE_PREDICTION_DEEP_LEARNING.ipynb" target="_blank"><i>House Price Prediction</i></a>
+</p>
+</p>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="col-md-4">
+<br/>
+<div class="services-box">
+<i class="fa fa-line-chart" aria-hidden="true"></i>
+<span>Stock Price Prediction</span>
+<p>
+This project is use to predict the Google stock prices with the help of time series analysis. This project is developed using Python, Jupyter-Notebook, 
+TensorFlow, Scikit learn & Recurrent Neural Network.
+<br/>
+<p class="text-center"> 
+<a href="https://www.infinitycodex.in/google-stock-price-prediction-using-rnn" target="_blank"><i>Stock Prediction Project</i></a>
+</p>
+</p>
+</div>
+</div>
+
+
+
+
+
+<div class="col-md-4">
+<br/>
+<div class="services-box">
+<i class="fa fa-bank" aria-hidden="true"></i>
+<span style="margin-left:30px;">Bank Data Analysis</span>
+<p>
+This project is create on a United Kingdom bank dataset. With Tableau customer segmentation is done based on various factor's such as gender, age, etc.
+With the help of Tableau a complete data story is created.
+<br/>
+
+<p class="text-center"> 
+<a href="https://public.tableau.com/profile/hardik.vegad#!/vizhome/6_Bank_Data_Analyzing_UK_Complete_Story_Line/Story1" target="_blank"><i>Bank Data Analysis</i></a>
+</p>
+</p>
+</div>
+</div>
+
+
+
+<div class="col-md-4">
+<br/>
+<div class="services-box">
+<i class="fa fa-car" aria-hidden="true"></i>
+<span>Number Plate Scanner</span>
+<p>
+This project is created to maintain the traffic law by capturing the number plate of the vehicle who voilate the law. This project is
+developed using Python, PyCharm, OpenCV.
+<br/>
+<br/>
+<p class="text-center"> 
+<a href="https://www.infinitycodex.in/easy-number-plate-scanner-project-using" target="_blank"><i>Number Plate Scanner Project</i></a>
+</p>
+</p>
+</div>
+</div>
+
+
+
+
+
+
+
+
+</div>
+</div>
+<br/>
+<!----------------Contact----------------------->
+
+<div class="contact" id="contact">
+<div class="container text-center">
+<h1 span style="font-family: &quot;times new roman&quot; , serif;"><u><b>Contact Me</b></u></h1>
+<p>
+If you are intrusted and want to give me a chance contact me.
+<br/>
+<br/> <i>Working for you and helping to expand your vision with realistic approch will surely help us to achive that milestone of yours.</i>
+</p>
+
+<div class="row">
+<div class="col-md-4">
+<i class="fa fa-phone"></i>
+<p><i>+91 9022153528</i></p>
+</div>
+
+<div class="col-md-4">
+<i class="fa fa-envelope"></i>
+<p><i>vegadhardik7@gmail.com</i></p>
+</div>
+
+<div class="col-md-4">
+<i class="fa fa-internet-explorer"></i>
+<p><i><a href="https://www.infinitycodex.in/" target="_blank">https://www.infinitycodex.in/</a></i></p>
+</div>
+</div>
+
+<button type="button" class="btn btn-primary">
+<a href="https://drive.google.com/uc?export=download&id=1nu8C6d3kkHnRt0CbTLbL34CZY2wFKjQ8" target="_blank"download><i class="fa fa-download">&nbsp;&nbsp;Resume</i></a>
+</button>
+</div>
+
+<div class="footer text-center">
+
+<p>
+Made with <i class="fa fa-heart-o"></i> By Hardik Vegad
+</p>
+</div>
+</div>
+</section>
+
+</body
+</html>
